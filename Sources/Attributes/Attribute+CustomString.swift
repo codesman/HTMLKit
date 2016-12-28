@@ -7,7 +7,7 @@ extension Attribute: CustomStringConvertible {
         case .href: return "href"
         case .method: return "method"
         case .action: return "action"
-        case .custom(let tag): return "\(tag)"
+        case .custom(let attribute): return "\(attribute)"
         }
     }
 }
